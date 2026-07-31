@@ -1,7 +1,7 @@
-import EventPractice from './EventPractice';
+import ScrollBox from './ScrollBox';
 
 const App = () => {
-  return <EventPractice />;
+  return <ScrollBox />;
 };
 
 export default App;
