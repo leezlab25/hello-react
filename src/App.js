@@ -1,7 +1,11 @@
-import IterationSample from './IterationSample';
+import Info from './Hooks/Info';
 
 const App = () => {
-  return <IterationSample />;
+  return (
+    <div>
+      <Info />
+    </div>
+  );
 };
 
 export default App;
