@@ -1,12 +1,13 @@
-import { Route, Routes } from "react-router-dom";
-import NewsPage from "./news-viewer/NewsPages";
+import CounterContainer from './containers/CounterContainer';
+import TodosContainer from './containers/TodosContainer';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<NewsPage />} />
-      <Route path="/:category" element={<NewsPage />} />
-    </Routes>
+    <div>
+      <CounterContainer/>
+      <hr />
+      <TodosContainer />
+    </div>
   );
 };
 
